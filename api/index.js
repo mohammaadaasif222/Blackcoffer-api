@@ -36,6 +36,14 @@ app.get("/api/courses", async (req, res) => {
     res.status(500).json({ error: error.message });
   }
 });
+app.get("/api/course/:id", async (req, res) => {
+  try {
+    const course = await Course.findById(req.params.id);
+    res.json(course);
+  } catch (error) {
+    res.status(500).json({ error: error.message });
+  }
+});
 
 app.use((err, req, res, next) => {
   const statusCode = err.statusCode || 500;
