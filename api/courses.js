@@ -5,7 +5,8 @@ export const courseData = [
     description:
       "Learn the basics of React Native development and build your first mobile app.",
     enrollmentStatus: "Open",
-    thumbnail: "your.image.here",
+    thumbnail:
+      "https://res.cloudinary.com/mae-com-in/image/upload/v1701446932/courses/reactnative_jtnnhf.jpg",
     duration: "8 weeks",
     schedule: "Tuesdays and Thursdays, 6:00 PM - 8:00 PM",
     location: "Online",
@@ -42,7 +43,7 @@ export const courseData = [
     description:
       "Explore advanced concepts in React and implement complex applications.",
     enrollmentStatus: "Closed",
-    thumbnail: "advanced.image.here",
+    thumbnail: "https://res.cloudinary.com/mae-com-in/image/upload/v1701447572/courses/9d0a6780-394a-11eb-9fd1-6296a684b124_1_-removebg-preview_dbxsqd.jpg",
     duration: "10 weeks",
     schedule: "Mondays and Wednesdays, 7:00 PM - 9:00 PM",
     location: "Online",
@@ -76,7 +77,7 @@ export const courseData = [
     description:
       "Explore complex data structures and algorithms for efficient problem-solving.",
     enrollmentStatus: "Open",
-    thumbnail: "data-structures.image.here",
+    thumbnail: "https://res.cloudinary.com/mae-com-in/image/upload/v1701447686/courses/0_xmecyKNlbZKinBDs-removebg-preview_porltu.jpg",
     duration: "10 weeks",
     schedule: "Mondays and Fridays, 4:00 PM - 6:00 PM",
     location: "Online",
@@ -119,7 +120,7 @@ export const courseData = [
     instructor: "Prof. Sarah Johnson",
     description: "Master data analysis using Python programming language.",
     enrollmentStatus: "Open",
-    thumbnail: "data-analysis.image.here",
+    thumbnail: "https://res.cloudinary.com/mae-com-in/image/upload/v1701447955/courses/bookkeeping-vector-illustration_epczjf.webp",
     duration: "6 weeks",
     schedule: "Mondays and Wednesdays, 2:00 PM - 4:00 PM",
     location: "Online",
@@ -164,7 +165,7 @@ export const courseData = [
     description:
       "A comprehensive bootcamp covering HTML, CSS, and JavaScript for web development.",
     enrollmentStatus: "Open",
-    thumbnail: "web-development.image.here",
+    thumbnail: "https://res.cloudinary.com/mae-com-in/image/upload/v1701448321/courses/2918517_qkp8ya.webp",
     duration: "12 weeks",
     schedule: "Saturdays and Sundays, 9:00 AM - 1:00 PM",
     location: "Online",
@@ -206,7 +207,7 @@ export const courseData = [
     description:
       "An introductory course covering the basics of artificial intelligence and machine learning.",
     enrollmentStatus: "Open",
-    thumbnail: "ai.image.here",
+    thumbnail: "https://res.cloudinary.com/mae-com-in/image/upload/v1701448480/courses/images_kyqek6.jpg",
     duration: "8 weeks",
     schedule: "Tuesdays and Thursdays, 5:00 PM - 7:00 PM",
     location: "Online",
@@ -249,7 +250,7 @@ export const courseData = [
     instructor: "Sam Robinson",
     description: "Learn to build mobile applications using Flutter framework.",
     enrollmentStatus: "Open",
-    thumbnail: "flutter.image.here",
+    thumbnail: "https://res.cloudinary.com/mae-com-in/image/upload/v1701448551/courses/Flutter-Framework-Feature-Image-Background-Colour_yrd1il.avif",
     duration: "10 weeks",
     schedule: "Mondays and Wednesdays, 6:00 PM - 8:00 PM",
     location: "Online",
@@ -290,7 +291,7 @@ export const courseData = [
     description:
       "Learn the basics of digital marketing strategies and techniques.",
     enrollmentStatus: "Open",
-    thumbnail: "digital-marketing.image.here",
+    thumbnail: "https://res.cloudinary.com/mae-com-in/image/upload/v1701448630/courses/major-components-of-digital-marketing_z02crm.png",
     duration: "6 weeks",
     schedule: "Fridays, 10:00 AM - 12:00 PM",
     location: "Online",
@@ -331,7 +332,7 @@ export const courseData = [
     description:
       "Learn the basics of cybersecurity and essential security measures.",
     enrollmentStatus: "Open",
-    thumbnail: "cybersecurity.image.here",
+    thumbnail: "https://res.cloudinary.com/mae-com-in/image/upload/v1701448683/courses/download_2_svn6lr.png",
     duration: "8 weeks",
     schedule: "Saturdays, 2:00 PM - 4:00 PM",
     location: "Online",
@@ -372,7 +373,7 @@ export const courseData = [
     description:
       "Learn the fundamentals of photography and visual composition.",
     enrollmentStatus: "Open",
-    thumbnail: "photography.image.here",
+    thumbnail: "https://res.cloudinary.com/mae-com-in/image/upload/v1701448881/courses/Elizabeth-Wendland-Photography-Portland-Sherwood-Oregon-senior-athlete-sports-photographer-D7K_8077_wycwdp.jpg",
     duration: "4 weeks",
     schedule: "Tuesdays and Thursdays, 3:00 PM - 5:00 PM",
     location: "Online",
@@ -404,6 +405,90 @@ export const courseData = [
         id: 121,
         name: "Lucas Wilson",
         email: "lucas@example.com",
+      },
+    ],
+  },
+  {
+    name: "MERN Stack Web Development",
+    instructor: "Michael Johnson",
+    description:
+      "Master the MERN (MongoDB, Express.js, React, Node.js) stack for full-stack web development.",
+    enrollmentStatus: "Open",
+    thumbnail:
+      "https://res.cloudinary.com/mae-com-in/image/upload/v1701446933/courses/mern_s6rsif.jpg",
+    duration: "10 weeks",
+    schedule: "Mondays and Wednesdays, 6:00 PM - 8:00 PM",
+    location: "Online",
+    prerequisites: ["Basic understanding of HTML, CSS, and JavaScript"],
+    syllabus: [
+      {
+        week: 1,
+        topic: "Introduction to MERN Stack",
+        content: "Overview of MongoDB, Express.js, React, and Node.js.",
+      },
+      {
+        week: 2,
+        topic: "Building Backend with Node.js and Express.js",
+        content: "Creating a backend server using Node.js and Express.js.",
+      },
+      {
+        week: 3,
+        topic: "Frontend Development with React",
+        content: "Building interactive user interfaces with React.",
+      },
+    ],
+    students: [
+      {
+        id: 122,
+        name: "Emma Garcia",
+        email: "emma@example.com",
+      },
+      {
+        id: 123,
+        name: "Liam Wilson",
+        email: "liam@example.com",
+      },
+    ],
+  },
+  {
+    name: "Angular Framework Masterclass",
+    instructor: "Dr. Sophia Clark",
+    description:
+      "Learn Angular framework and build dynamic single-page applications.",
+    enrollmentStatus: "Open",
+    thumbnail:
+      "https://res.cloudinary.com/mae-com-in/image/upload/v1701446932/courses/angular_f2d34m.jpg",
+    duration: "8 weeks",
+    schedule: "Tuesdays and Thursdays, 4:00 PM - 6:00 PM",
+    location: "Online",
+    prerequisites: ["Basic knowledge of HTML, CSS, and JavaScript"],
+    syllabus: [
+      {
+        week: 1,
+        topic: "Introduction to Angular",
+        content: "Understanding Angular fundamentals and architecture.",
+      },
+      {
+        week: 2,
+        topic: "Components and Directives",
+        content: "Working with components and directives in Angular.",
+      },
+      {
+        week: 3,
+        topic: "Services and Dependency Injection",
+        content: "Implementing services and dependency injection.",
+      },
+    ],
+    students: [
+      {
+        id: 124,
+        name: "Olivia Brown",
+        email: "olivia@example.com",
+      },
+      {
+        id: 125,
+        name: "Noah Martinez",
+        email: "noah@example.com",
       },
     ],
   },
