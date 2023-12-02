@@ -3,14 +3,16 @@ import cookieParser from "cookie-parser";
 import { connectDatabase } from "./connectDB.js";
 import Entry from "./model.js";
 import Course from "./courseModel.js";
+import cors from 'cors'
 
 const app = express();
 
 app.use(express.json());
 
+
 app.use(cookieParser());
 connectDatabase();
-
+app.use(cors({origin:'*'}))
 app.listen(3000, () => {
   console.log("Server is running on port 3000!");
 });
